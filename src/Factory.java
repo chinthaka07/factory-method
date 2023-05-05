@@ -4,13 +4,20 @@ import resource.Van;
 import resource.Vehicle;
 
 public class Factory {
-    public Vehicle getVehicle(String vehicleType){
-        if (vehicleType.equals("Car")){
-            return new Car();
-        } else if (vehicleType.equals("Bus")) {
-            return new Bus();
-        } else {
-            return new Van();
+    private static Factory factory=null;
+    private Factory(){}
+    public static Factory getInstance(){
+        if (factory==null){
+            factory = new Factory();
+        }
+        return factory;
+    }
+    public Vehicle getVehicle(VehicleType vehicleType){
+        switch (vehicleType){
+            case CAR: return new Car();
+            case VAN: return new Van();
+            case BUS: return new Bus();
+            default: return null;
         }
     }
 }

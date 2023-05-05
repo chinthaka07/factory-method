@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b4448b7-e073-46a5-b301-e434554ba69b" name="Changes" comment="5">
+    <list default="true" id="4b4448b7-e073-46a5-b301-e434554ba69b" name="Changes" comment="6">
+      <change afterPath="$PROJECT_DIR$/src/VehicleType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683274190221</updated>
-      <workItem from="1683274191787" duration="1083000" />
+      <workItem from="1683274191787" duration="2460000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1683274206724</created>
@@ -106,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683275048344</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="6">
+      <created>1683275299087</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683275299087</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +127,7 @@
     <MESSAGE value="3" />
     <MESSAGE value="4" />
     <MESSAGE value="5" />
-    <option name="LAST_COMMIT_MESSAGE" value="5" />
+    <MESSAGE value="6" />
+    <option name="LAST_COMMIT_MESSAGE" value="6" />
   </component>
 </project>
